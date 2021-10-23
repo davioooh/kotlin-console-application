@@ -90,10 +90,9 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>MainKt</mainClass>
+                    <mainClass>com.davioooh.MainKt</mainClass>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -108,7 +107,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        MainKt
+                                        com.davioooh.MainKt
                                     </mainClass>
                                 </manifest>
                             </archive>
@@ -120,7 +119,6 @@
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
 </project>
